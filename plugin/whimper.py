@@ -1,13 +1,12 @@
-import pyaudio
 import itertools
-import numpy as np
-import struct
-import pynvim
-import openai
 import os
 import wave
-from faster_whisper import WhisperModel
 from textwrap import dedent
+
+import pyaudio
+import pynvim
+import openai
+from faster_whisper import WhisperModel
 
 openai.api_key = os.getenv("OPENAI_API_KEY")
 

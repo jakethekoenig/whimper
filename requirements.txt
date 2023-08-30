@@ -1,0 +1,4 @@
+faster_whisper==0.7.1
+openai==0.27.8
+pyaudio==0.2.13
+pynvim==0.4.3
