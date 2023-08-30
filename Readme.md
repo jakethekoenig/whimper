@@ -13,4 +13,4 @@ export OPENAI_API_KEY=<YOUR API KEY> # If not already set
 
 # Usage
 
-In insert mode type `TALK` and neovim will start listening to your microphone and insert the transcription. If you type `CODE` lines above and the transcription will be given to ChatGPT which will attempt to rewrite your spoken word as code.
+In insert mode type `TALK` and neovim will start listening to your microphone and insert the transcription. If you type `CODE` lines above and the transcription will be given to ChatGPT which will attempt to rewrite your spoken word as code. Say stop to stop the transcription.
